@@ -1,0 +1,143 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+/*mobil*/
+@media (max-width: 600px) {
+
+    header {
+        background-color: antiquewhite;
+
+    }
+
+    header {
+        display: block;
+
+    }
+
+
+    .topbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+
+    }
+         a h1 {
+        display: none:
+    }
+
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #181F32;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: #ED5242;
+    }
+
+    #knap {
+        grid-column-start: 3;
+        font-size: 20px;
+        text-align: center;
+        font-size: 30px;
+        color: #181F32;
+        cursor: pointer;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+
+/*desktop*/
+@media (min-width: 600px) {
+
+    header {
+        background-color: antiquewhite;
+
+    }
+
+    header {
+        display: block;
+
+    }
+
+
+    .topbar {
+        display: grid;
+        grid-template-columns: 1fr 1fr 50px;
+        padding-top: 50px;
+
+    }
+
+#overskrift {
+    padding-top: 55px;
+    padding-left: 20px;
+    float: left;
+    display: inline-flex;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+    nav {
+        display: block;
+        text-align: right;
+        margin-right: 30px;
+
+
+    }
+
+    nav a {
+        display: inline-flex;
+        padding: 10px;
+        text-decoration: none;
+        color: #181F32;
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+
+
+    }
+
+    p {
+        display: none;
+    }
+
+    a:hover {
+        color: #ED5242;
+    }
+
+    #overskrift:hover {
+        color: #ED5242;
+    }
+    h1 {
+    font-size: 50px;
+        text-align: center;
+}
+}
