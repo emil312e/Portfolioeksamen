@@ -17,7 +17,7 @@ body {
 @media (max-width: 600px) {
 
     header {
-        background-color:  #E8D8CD;
+        background-color: #DBD7C0;
 
     }
 
@@ -30,6 +30,7 @@ body {
     .topbar {
         display: grid;
         grid-template-columns: 1fr 1fr 50px;
+
 
     }
 
@@ -51,14 +52,15 @@ body {
 
 
     nav a {
-        line-height: 1.2rem;
+        line-height: 0.2rem;
         display: block;
-        padding: 20px;
+        padding: 30px;
+        padding-top: 20px;
         text-align: center;
         text-decoration: none;
         color: white;
-        font-size: 24px;
-        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-family: 'Bebas Neue', cursive;
     }
 
 
@@ -70,6 +72,8 @@ body {
         font-size: 20px;
         text-decoration: none;
         color: white;
+        font-family: 'Bebas Neue', cursive;
+
     }
 
 
@@ -81,20 +85,83 @@ body {
         color: #ED5242;
     }
 
-#knap:hover {
+
+    #knap:hover {
         color: #ED5242;
     }
 
 }
 
+/*footer*/
+footer p {
+    line-height: 1;
+}
 
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    background-color: #DBD7C0;
+    color: black;
+    text-align: left;
+    padding: .40rem;
 
+}
+
+footer h2 {
+    font-size: 17px;
+    margin-left: 1rem;
+ margin-top: 1rem;
+    font-family: 'Bebas Neue', cursive;
+    color:#ED5242;
+}
+
+footer h3 {
+    font-size: 17px;
+    margin-left: 1rem;
+    padding-top: 15px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+footer h4 {
+    font-size: 17px;
+    margin-top: -3.5rem;
+    float: right;
+    margin-right: 1.8rem;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+
+}
+
+.facebook {
+    width: 2.9rem;
+    height: 2.9rem;
+    float: right;
+    margin-right: 2.4rem;
+    margin-top: -1.7rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+      color: #ED5242;
+}
+
+.instagram {
+    width: 2.9rem;
+    height: 2.9rem;
+    float: right;
+    margin-right: -2.5rem;
+    margin-top: -0.2rem;
+    font-family: 'Bebas Neue', cursive;
+      font-size: 18px;
+    color: #ED5242;
+}
 
 /*desktop*/
 @media (min-width: 600px) {
 
     header {
-        background-color:  #E8D8CD;
+           background-color: #DBD7C0;
 
     }
 
@@ -119,6 +186,7 @@ body {
         font-size: 40px;
         text-decoration: none;
         color: white;
+       font-family: 'Bebas Neue', cursive;
     }
 
 
